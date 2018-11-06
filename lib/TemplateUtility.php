@@ -145,9 +145,9 @@ class TemplateUtility
                 }
                 else
                 {
-                    echo '<a href="http://www.opencats.org" target="_blank">';
-                    echo '<img src="images/tabs/small_upgrade.jpg" border="0" /> ';
-                    echo 'OpenCATS.org</a>&nbsp;&nbsp;&nbsp;&nbsp;', "\n";
+                    // echo '<a href="http://www.opencats.org" target="_blank">';
+                    // echo '<img src="images/tabs/small_upgrade.jpg" border="0" /> ';
+                    // echo 'OpenCATS.org</a>&nbsp;&nbsp;&nbsp;&nbsp;', "\n";
                 }
             }
 
@@ -827,8 +827,7 @@ class TemplateUtility
        */
 
         echo '<div class="footerBlock">', "\n";
-        echo '<p id="footerText">CATS Version ', CATS_VERSION, $buildString,
-             '. <span id="toolbarVersion"></span>Powered by <a href="http://www.catsone.com/"><strong>CATS</strong></a>.</p>', "\n";
+        echo '<p id="footerText"></span>Powered by <a href="http://www.creativewebmania.com/"><strong>creative Web Mania</strong></a>.</p>', "\n";
         echo '<span id="footerResponse">Server Response Time: ', $loadTime, ' seconds.</span><br />';
         echo '<span id="footerCopyright">', COPYRIGHT_HTML, '</span>', "\n";
         if (!eval(Hooks::get('TEMPLATEUTILITY_SHOWPRIVACYPOLICY'))) return;
@@ -1179,7 +1178,7 @@ class TemplateUtility
         echo '"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">', "\n";
         echo '<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">', "\n";
         echo '<head>', "\n";
-        echo '<title>OpenCATS - ', $pageTitle, '</title>', "\n";
+        echo '<title>Anagha ATS - ', $pageTitle, '</title>', "\n";
         echo '<meta http-equiv="Content-Type" content="text/html; charset=', HTML_ENCODING, '" />', "\n";
         echo '<link rel="icon" href="images/favicon.ico" type="image/x-icon" />', "\n";
         echo '<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />', "\n";

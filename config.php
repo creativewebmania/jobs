@@ -31,9 +31,9 @@
 define('LICENSE_KEY','3163GQ-54ISGW-14E4SHD-ES9ICL-X02DTG-GYRSQ6');
 
 /* Database configuration. */
-define('DATABASE_USER', 'cwmdbuser');
-define('DATABASE_PASS', 'IYDmaX!3V74G89gk');
-define('DATABASE_HOST', 'creativewebmania.cewojc6ob8jn.us-west-2.rds.amazonaws.com');
+define('DATABASE_USER', 'root');
+define('DATABASE_PASS', 'ashish123');
+define('DATABASE_HOST', 'localhost');
 define('DATABASE_NAME', 'jobs');
 
 /* Authentication Configuration
