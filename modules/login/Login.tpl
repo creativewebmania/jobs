@@ -108,7 +108,7 @@
 <p>
 	&nbsp;</p>  
 
-	<span style="font-size: 12px;"><a href="http://forums.opencats.org ">opencats support forum</a></span>
+	<!-- <span style="font-size: 12px;"><a href="http://forums.opencats.org ">opencats support forum</a></span> -->
 	           <div id="login">
                 <?php if (!empty($this->message)): ?>
                     <div>
@@ -121,8 +121,7 @@
                 <?php endif; ?>
 	</div>
 	  <div id="footerBlock">
-                <span class="footerCopyright"><?php echo(COPYRIGHT_HTML); ?></span>
-                Based upon original work and Powered by <a href="http://www.catsone.com ">CATS</a>.</div>
+                <span class="footerCopyright"><?php echo(COPYRIGHT_HTML); ?>
             </div>
         </div>
 
